@@ -1,7 +1,7 @@
 import getpass, time, json, os
-import code.archinstall as archinstall
-from code.archinstall.lib.hardware import hasUEFI
-from code.archinstall.lib.profiles import Profile
+import archinstall
+from archinstall.lib.hardware import hasUEFI
+from archinstall.lib.profiles import Profile
 
 ARCH_DEFAULTS = {
     "keyboard-language": "us",
